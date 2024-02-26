@@ -1,3 +1,7 @@
 *.log
 other.log
 *.o
+
+#开头是注释， 忽略 test/文件夹
+test/
+

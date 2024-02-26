@@ -5,3 +5,26 @@ other.log
 #开头是注释， 忽略 test/文件夹
 test/
 
+
+# ** 表示匹配任意的中间目录
+
+# 忽略所有的 .a文件
+*.a
+
+# lib.a 文件不被忽略
+!lib.a
+
+
+# 只忽略当前目录下的TODO文件，不忽略子目录下的TODO文件
+/TODO
+
+# 忽略任何目录下的的build文件夹
+build/
+
+# 忽略doc目录下的txt文件，其子目录下的不忽略
+doc/*.txt
+
+#忽略doc目录及其子目录下的pdf文件
+doc/**/*.pdf
+
+
